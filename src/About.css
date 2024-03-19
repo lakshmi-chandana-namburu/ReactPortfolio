@@ -1,0 +1,24 @@
+
+.Pr{
+    display: flex;
+    justify-content: center;
+    margin-left:4%;
+}
+h1{
+    font-size: 900;
+}
+.Prc{
+    padding-right:3%;
+}
+.cv{
+    text-decoration: none;
+    padding:8px;
+    border: 1px solid blue;
+    border-radius: 5%;
+    background-color: blue;
+    font-weight: bold;
+}
+.ic{
+    background-color: blue;
+    width:1%;
+}

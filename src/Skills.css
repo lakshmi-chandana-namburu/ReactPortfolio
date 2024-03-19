@@ -1,0 +1,66 @@
+#skills{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.skill h2{
+    text-shadow: 3px 5px 10px blue;
+}
+.titles{
+    display: flex;
+    margin-left:22%;
+    justify-content: space-between;
+    margin-right:23%;
+    margin-top:2%;
+}
+.titles h2{
+    color:yellow;
+    text-shadow: 3px 5px 10px blue;
+}
+.frontend {
+    max-width:50%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-top:-3%;
+}
+
+.frontend .skill {
+    flex: 0 0 50%; /* Each skill takes up 20% of the container width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.program{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-left:50%;
+    margin-top:-24%;
+}
+
+.program .skill {
+    flex: 0 0 48%; /* Each skill takes up 20% of the container width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill img {
+    width:25%;
+}
+
+#mysql img{
+    border-radius:50%;
+}
+
+#java img{
+    height: 28%;
+}
+
+#flask img{
+    height: 25%;
+}
+

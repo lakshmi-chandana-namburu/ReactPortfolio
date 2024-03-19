@@ -1,0 +1,67 @@
+.certi{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-top:3%;
+    margin-left:12%;
+    margin-right:7%;
+    justify-content: space-around;
+}
+
+.certi .cer img{
+    width:80%;
+    display: block;
+    border-radius: 5%;
+}
+
+.certi .cer img:hover{
+    cursor:pointer;
+    opacity: 0.5;
+}
+.certi .cer{
+    flex: 0 0 30%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.certi .cer .overlay{
+position: absolute; 
+  bottom: 48%; 
+  width:18%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.certi .cer:hover .overlay{
+    opacity: 1;
+}
+
+.certi .cer .overlay1{
+    position: absolute; 
+  bottom: 14.5%; 
+  width:18%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.certi .cer:hover .overlay1{
+    opacity: 1;
+}

@@ -1,0 +1,59 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 12%;
+    margin-right: 7%;
+    justify-content: space-around;
+}
+
+.projects .pro {
+    flex: 0 0 30%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.projects .pro img {
+    width: 80%;
+    display: block;
+    border-radius: 5%;
+}
+
+.projects .pro img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.projects .pro .overlay a{
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects .pro .overlay h3{
+    color:yellow;
+    text-transform: uppercase;
+}
+
+.projects .pro .overlay span{
+    color:hotpink;
+}
+.projects .pro .overlay {
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    background:black;
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    width:40%;
+}
+
+.projects .pro:hover .overlay {
+    opacity: 1;
+}
